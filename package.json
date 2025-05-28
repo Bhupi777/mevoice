@@ -1,0 +1,18 @@
+{
+  "name": "mecabs-voice",
+  "version": "1.0.0",
+  "description": "AI-powered voice taxi booking agent with Twilio, ChatGPT, ElevenLabs, Whisper, and Google Maps",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "twilio": "^4.21.0",
+    "uuid": "^9.0.1",
+    "form-data": "^4.0.0"
+  }
+}
